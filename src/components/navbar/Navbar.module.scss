@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  //   justify-content: end;
+
+  .nav {
+    display: flex;
+    gap: 20px;
+    font-size: 2rem;
+    color: rgb(92, 89, 85);
+
+    .navLink {
+      text-decoration: none;
+
+      &:visited {
+        color: rgb(92, 89, 85);
+      }
+    }
+  }
+}

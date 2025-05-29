@@ -1,0 +1,31 @@
+.main {
+  .flexDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-top: 25rem;
+
+    .container {
+      color: wheat;
+      width: 100%;
+
+      .h4 {
+        justify-self: center;
+        font-size: 1.6rem;
+      }
+      .h3 {
+        justify-self: center;
+        font-size: 5rem;
+      }
+      .line {
+        margin: 15px 0px 15px 0px;
+        border-top: 2px solid white;
+      }
+      .lasth4 {
+        justify-self: center;
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
