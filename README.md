@@ -6,7 +6,7 @@ The website presents a basic portfolio sample for beginning.
 
 This project showcases:
 
-- React router useing.
+- React router using.
 
 ## Features
 
