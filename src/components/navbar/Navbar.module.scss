@@ -1,18 +1,23 @@
 .container {
   display: flex;
-  //   justify-content: end;
+  margin: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 
   .nav {
     display: flex;
     gap: 20px;
     font-size: 2rem;
-    color: rgb(92, 89, 85);
+    color: rgb(97, 94, 90);
 
     .navLink {
       text-decoration: none;
 
       &:visited {
         color: rgb(92, 89, 85);
+      }
+
+      &:hover {
+        color: rgb(255, 89, 0);
       }
     }
   }

@@ -1,8 +1,6 @@
-@import "./scss/reset";
+@use "./scss/reset";
 
 body {
   background-image: url(./assets/model-1.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
-  
 }

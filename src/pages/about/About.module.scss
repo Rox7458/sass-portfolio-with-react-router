@@ -1,0 +1,42 @@
+.main {
+  position: fixed;
+  top: 40rem;
+  color: white;
+  .h2 {
+    justify-self: center;
+    font-size: 3rem;
+    color: rgb(255, 106, 0);
+  }
+
+  .p {
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(48, 48, 48);
+    height: 1000px;
+
+    .card {
+      .div {
+        border-bottom: 5px solid rgb(255, 106, 0);
+        margin-bottom: 1rem;
+        background-color: rgb(94, 94, 94);
+        width: 1400px;
+
+        .h3 {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 1.4rem;
+        }
+
+        .h5 {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

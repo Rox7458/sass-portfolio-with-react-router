@@ -3,12 +3,24 @@
   justify-content: space-between;
   position: fixed;
   bottom: 3rem;
+  color: white;
 
   .ul {
     position: fixed;
     font-size: 2.5rem;
     left: 5px;
     padding-left: 0.5rem;
+
+    .a {
+      text-decoration: none;
+      &:visited {
+        color: white;
+      }
+
+      &:hover{
+        color: orange;
+      }
+    }
   }
 
   .h5 {

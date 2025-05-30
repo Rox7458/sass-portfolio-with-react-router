@@ -5,15 +5,24 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import footerStyle from "./Footer.module.scss";
 
-
 const Footer = () => {
   return (
     <div className={footerStyle.container}>
       <ul className={footerStyle.ul}>
-        <FaSquareXTwitter />
-        <FaFacebook />
-        <FaInstagramSquare />
-        <FaGithubSquare />
+        <a href="" className={footerStyle.a}>
+          <FaSquareXTwitter />
+        </a>
+        <a className={footerStyle.a} href="">
+          <FaFacebook />
+        </a>
+        <a className={footerStyle.a} href="">
+          {" "}
+          <FaInstagramSquare />
+        </a>
+        <a className={footerStyle.a} href="">
+          {" "}
+          <FaGithubSquare />
+        </a>
       </ul>
 
       <h5 className={footerStyle.h5}>© Copyright 2025</h5>
