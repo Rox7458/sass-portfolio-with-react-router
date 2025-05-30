@@ -24,18 +24,18 @@ export const imgData = [
     image: "src/assets/project-1.jpg",
   },
   {
-    image: "src/assets/project-1.jpg",
+    image: "src/assets/project-2.jpg",
   },
   {
-    image: "src/assets/project-1.jpg",
+    image: "src/assets/project-3.jpg",
   },
   {
-    image: "src/assets/project-1.jpg",
+    image: "src/assets/project-4.jpg",
   },
   {
-    image: "src/assets/project-1.jpg",
+    image: "src/assets/project-5.jpg",
   },
   {
-    image: "src/assets/project-1.jpg",
+    image: "src/assets/project-6.jpg",
   },
 ];
